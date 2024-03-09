@@ -9,20 +9,36 @@
       <link rel="stylesheet" href="./style/style.css">
 </head>
 </head>
-<body>
-      <div class="container-fluid content-1">
+<body class="body-bg">
+      <nav class="navbar navbar-expand-md py-5">
             <div class="container">
-                  <nav class="navbar text-light py-5">
-                        <div class="col-2">
-                              <img src="style/images/Logo.png" alt="logo">
-                        </div>
-                        <div class="offset-4"></div>
-                        <div class="col-1 lead text-orange header-item"><strong><u>Início</u></strong></div>
-                        <div class="col-1 lead header-item"><strong>Conteúdo</strong></div>
-                        <div class="col-1 lead header-item"><strong>Inspiração</strong></div>
-                        <div class="col-1 lead header-item"><strong>Dúvidas</strong></div>
-                  </nav>
-                  <div class="row container01">
+                  <a href="#" class="navbar-brand">
+                        <img src="./style/images/Logo.png" alt="img">
+                  </a>
+                  <button class="navbar-toggler invert-color" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navegation">
+                        <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse my-nav" id="nav">
+                        <ul class="navbar-nav">
+                              <li class="navbar-item">
+                                    <a href="#" class="nav-link text-orange page-selected px-4"><strong><u>Início</u></strong></a>
+                              </li>
+                              <li class="navbar-item">
+                                    <a href="#" class="nav-link text-light px-4"><strong>Conteúdo</strong></a>
+                              </li>
+                              <li class="navbar-item">
+                                    <a href="#" class="nav-link text-light px-4"><strong>Inscrição</strong></a>
+                              </li>
+                              <li class="navbar-item">
+                                    <a href="#" class="nav-link text-light px-4"><strong>Dúvidas</strong></a>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
+      </nav>
+      <div class="container-fluid">
+            <div class="container">
+                  <div class="row p-big">
                         <div class="col-lg-6">
                               <h1 class="myTitle poppins text-light">Curso Node.js e MongoDB</h1>
                               <p class="lead text-orange mr-3 pr-3"><strong>Aprenda a desenvolver suas primeiras aplicações web e web APIs usando as tecnologias que mais crescem no mercado!</strong></p>
@@ -46,8 +62,6 @@
                         <p class="h5 text-orange">JavaScript é hoje a linguagem de programação mais popular do mundo. Aliada à plataforma Node.js e ao banco de dados MongoDB, você desenvolve end-to-end com apenas uma linguagem de programação.</p>
                   </div>
             </div>
-      </div>
-      <div class="container content-2">
             <div class="container">
                   <div class="row my-5">
                         <div class="col-lg-4 col-md-6 mt-3">
@@ -119,5 +133,6 @@
                   </div>
             </div>
       </div>
+            
 </body>
 </html>

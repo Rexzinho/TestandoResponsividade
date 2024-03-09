@@ -1,0 +1,85 @@
+@font-face {
+      font-family: PoppinsBold;
+      src: url('./Poppins-Bold.ttf');
+}
+
+.coluna{
+      border:1px solid black;
+      color:gray;
+}
+
+.p-big{
+      margin-bottom:130px;
+}
+
+.poppins{
+      font-family: PoppinsBold;
+}
+
+.myTitle{
+      font-size:4.5rem;
+}
+
+.text-dark-orange{
+      color:#D73602;
+}
+
+.text-orange{
+      color:#FF9659;
+}
+
+.body-bg{
+      background: rgb(118,9,8);
+      background: linear-gradient(141deg, rgba(118,9,8,1) 0%, rgba(121,57,35,1) 11%, rgba(93,25,3,1) 21%, rgba(14,16,22,1) 36%, rgba(14,16,22,1) 100%);
+}
+
+.my-nav{
+      flex-grow:0;
+}
+
+.orange-btn{
+      background-color:#D93600;
+      font-size:1rem;
+      padding:15px 25px;
+}
+.orang-btn:hover{
+      background-color: #EE0C0C;
+}
+
+.header.item{
+      transition:0.4s
+}
+.header-item:hover{
+      color:#FF9659;
+      cursor:pointer;
+}
+
+.my-card-bg{
+      background-color: #181628;
+}
+
+.my-card-img{
+      width:90px;
+}
+
+.gray-circle{
+      background-color: #2B2B2B;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      width:90px;
+      height:90px;
+      border-radius: 50%;
+}
+
+.pr-3{
+      padding-right:40px;
+}
+
+.navbar-toggler{
+      border:none;
+}
+
+.invert-color{
+      filter:invert(100%);
+}

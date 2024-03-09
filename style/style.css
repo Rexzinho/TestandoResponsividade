@@ -1,6 +1,6 @@
 @font-face {
       font-family: PoppinsBold;
-      src: url('/style/Poppins-Bold.ttf');
+      src: url('./style/Poppins-Bold.ttf');
 }
 
 .coluna{

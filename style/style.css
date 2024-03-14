@@ -9,7 +9,7 @@
 }
 
 .p-big{
-      margin-bottom:130px;
+      margin-bottom:180px;
 }
 
 .poppins{
@@ -30,20 +30,42 @@
 
 .body-bg{
       background: rgb(118,9,8);
-      background: linear-gradient(141deg, rgba(118,9,8,1) 0%, rgba(121,57,35,1) 11%, rgba(93,25,3,1) 21%, rgba(14,16,22,1) 36%, rgba(14,16,22,1) 100%);
+      background: linear-gradient(141deg, rgba(118,9,8,1) 0%, rgba(121,57,35,1) 11%, rgba(93,25,3,1) 21%, rgba(14,16,22,1) 36%, rgba(9,4,15,1) 100%);
 }
 
 .my-nav{
       flex-grow:0;
 }
 
+.my-nav-item{
+      color: white;
+      transition:0.2s;
+}
+
+.my-nav-item:hover{
+      color: #FF9659;
+}
+
+.page-selected{
+      text-shadow: 0px 0px 4px #ff965991;
+      color: #FF9659;
+}
+
+.page-selected:hover{
+      color:#FF9659;
+}
+
 .orange-btn{
       background-color:#D93600;
       font-size:1rem;
       padding:15px 25px;
+      transition:0.3s;
 }
-.orang-btn:hover{
+.orange-btn:hover{
       background-color: #EE0C0C;
+      position:relative;
+      box-shadow: 0 5px 10px 0 rgba(106,89,255,.2);
+      transform: translate(0px, -2px);
 }
 
 .header.item{
@@ -60,6 +82,10 @@
 
 .my-card-img{
       width:90px;
+}
+
+.my-card-border{
+      border:1px solid #322f4d;
 }
 
 .gray-circle{
